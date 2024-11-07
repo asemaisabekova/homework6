@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #333;
+    display: inline-block;
+}
+
+label, .error {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #333;
+    padding: 8px;
+    cursor: pointer;
+}
+.error {
+    color: darkred;
+    font-style: italic;
+}
